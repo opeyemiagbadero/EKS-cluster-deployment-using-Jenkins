@@ -49,3 +49,10 @@ Integrating AWS credentials into Jenkins is a pivotal step in establishing secur
 
 ![Screenshot from 2023-12-29 15-42-42](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/a52c0d98-9d99-4258-9938-701498b47905)
 
+# Create a Jenkinsfile 
+
+Created a new branch on an exisitng pipeline on Jenkins and also created a Jenkinsfile within the branch to include a deployment stage 
+
+![Screenshot from 2023-12-29 15-47-18](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/62b2c048-3f00-4dcd-8119-94157f1674b1)
+
+pushed from my local git repo to the git repo which automatically triggers and executes a branch within the multipipeline in Jenkins

@@ -56,3 +56,7 @@ Created a new branch on an exisitng pipeline on Jenkins and also created a Jenki
 ![Screenshot from 2023-12-29 15-47-18](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/62b2c048-3f00-4dcd-8119-94157f1674b1)
 
 pushed from my local git repo to the git repo which automatically triggers and executes a branch within the multipipeline in Jenkins
+
+![Screenshot from 2023-12-29 15-56-16](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/67dcc78b-086c-4459-841e-e522f35786d8)
+
+

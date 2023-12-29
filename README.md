@@ -8,8 +8,9 @@ Establishing a Kubernetes cluster is simplified by utilizing eksctl, a powerful 
 
 
 
+# Jenkins Server.
 
-Within this project, the integration of a Jenkins server plays a pivotal role in enhancing the efficiency of the continuous integration and continuous deployment (CI/CD) workflow. Docker is utilized to instantiate a container, within which essential tools are installed.
+Within this project, the integration of a  preexisting jenkins server with a container built from a docker image was used for the continuous integration and continuous deployment (CI/CD) workflow.
 
 
 

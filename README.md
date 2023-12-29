@@ -19,6 +19,9 @@ Within this project, the integration of a  preexisting jenkins server with a con
 The installation of kubectl on the Jenkins server is indispensable as it functions as the command-line tool for interacting with Kubernetes clusters, including Amazon EKS (Elastic Kubernetes Service). This step is critical in the deployment process, as kubectl commands are utilized to proficiently manage and deploy applications to Kubernetes clusters. For detailed installation instructions, refer to the AWS documentation at the following URL: https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 
 
-
 # Installation of iam-authenticator on Jenkins container
+
+It is crucial to install iam-authenticator on the Jenkins container to establish secure authentication with AWS services. This installation is vital for enabling secure communication between Jenkins and Amazon EKS, ensuring protected access to the Kubernetes cluster. The authentication mechanism provided by iam-authenticator is an integral part of the overall project workflow, enhancing security measures and enabling proper interaction with AWS resources during the deployment process. For detailed installation instructions, refer to the following URL: https://weaveworks-gitops.awsworkshop.io/60_workshop_6_ml/00_prerequisites.md/50_install_aws_iam_auth.html
+
+
 

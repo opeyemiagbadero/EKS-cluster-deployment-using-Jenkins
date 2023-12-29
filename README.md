@@ -27,3 +27,7 @@ It is crucial to install iam-authenticator on the Jenkins container to establish
 
 Generating the kubeconfig file is a crucial step in the project workflow, ensuring that the Jenkins user has the necessary permissions for secure access to the EKS cluster. This process involves creating the kubeconfig file, which integrates iam-authenticator for proper AWS Identity and Access Management (IAM) authentication. By following this step, a secure configuration is established, facilitating seamless communication between Jenkins and the EKS cluster during deployment. This is essential for maintaining security measures and ensuring smooth interaction with the Kubernetes environment, leveraging IAM for authentication. To create the kubeconfig file, refer to the following URL: https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
 
+# AWS Credentials on Jenkins
+
+Integrating AWS credentials into Jenkins is a pivotal step in establishing secure and authenticated communication between Jenkins and AWS services. This ensures that Jenkins possesses the required access to AWS resources, thereby facilitating the deployment process. By supplying the AWS access key and secret access key, Jenkins obtains the necessary authorization to interact with the designated AWS account. This enhances the overall security and functionality of the CI/CD pipeline, contributing to a robust and reliable workflow.
+

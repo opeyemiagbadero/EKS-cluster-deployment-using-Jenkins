@@ -2,10 +2,15 @@
 
 This guide provides a step-by-step walkthrough for configuring Jenkins to deploy applications onto an Amazon EKS (Elastic Kubernetes Service) cluster. The deployment process encompasses the installation of essential tools within the Jenkins container, the setup of AWS authentication, and the customization of the Jenkinsfile to facilitate EKS cluster deployment.
 
+![1 create an eks cluster using eksctl](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/5e77a482-ce2b-4010-ac0b-f85b80241455)
+
+
+
 # Eksctl cluster Installation
 
 Establishing a Kubernetes cluster is simplified by utilizing eksctl, a powerful tool designed to streamline and optimize the setup process. By leveraging eksctl, this project ensures a straightforward and efficient deployment of the Kubernetes cluster. The installation guide, offering detailed steps, can be found in the AWS documentation at the following URL: https://eksctl.io/installation/
 
+![2   eks cluster on AWS](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/473c05d3-7516-4411-992f-54f0edffa8c0)
 
 
 # Jenkins Server.
@@ -18,14 +23,23 @@ Within this project, the integration of a  preexisting jenkins server with a con
 
 The installation of kubectl on the Jenkins server is indispensable as it functions as the command-line tool for interacting with Kubernetes clusters, including Amazon EKS (Elastic Kubernetes Service). This step is critical in the deployment process, as kubectl commands are utilized to proficiently manage and deploy applications to Kubernetes clusters. For detailed installation instructions, refer to the AWS documentation at the following URL: https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 
+![3  Kubectl instalation within a jenkins container](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/be6ada2f-c184-403d-bc6d-9a11da7d0a45)
+
+
 
 # Installation of iam-authenticator on Jenkins container
 
 It is crucial to install iam-authenticator on the Jenkins container to establish secure authentication with AWS services. This installation is vital for enabling secure communication between Jenkins and Amazon EKS, ensuring protected access to the Kubernetes cluster. The authentication mechanism provided by iam-authenticator is an integral part of the overall project workflow, enhancing security measures and enabling proper interaction with AWS resources during the deployment process. For detailed installation instructions, refer to the following URL: https://weaveworks-gitops.awsworkshop.io/60_workshop_6_ml/00_prerequisites.md/50_install_aws_iam_auth.html
 
+
+![4  aws-Iam-authenticator download inside the jenkins container](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/8e83b2ed-7ff4-424b-95c1-c633b51c46c7)
+
+
 # Kubeconfig File
 
 Generating the kubeconfig file is a crucial step in the project workflow, ensuring that the Jenkins user has the necessary permissions for secure access to the EKS cluster. This process involves creating the kubeconfig file, which integrates iam-authenticator for proper AWS Identity and Access Management (IAM) authentication. By following this step, a secure configuration is established, facilitating seamless communication between Jenkins and the EKS cluster during deployment. This is essential for maintaining security measures and ensuring smooth interaction with the Kubernetes environment, leveraging IAM for authentication. To create the kubeconfig file, refer to the following URL: https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
+
+![5 creating a kubeconfig file within aws](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/6bccf05c-6c95-4569-a109-43e7466a4f3f)
 
 # AWS Credentials on Jenkins
 

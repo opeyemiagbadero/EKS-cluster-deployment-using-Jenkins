@@ -14,7 +14,7 @@ Within this project, the integration of a  preexisting jenkins server with a con
 
 
 
-
+# Installation of Kubectl on Jenkins Sever
 
 The installation of kubectl on the Jenkins server is indispensable as it functions as the command-line tool for interacting with Kubernetes clusters, including Amazon EKS (Elastic Kubernetes Service). This step is critical in the deployment process, as kubectl commands are utilized to proficiently manage and deploy applications to Kubernetes clusters.
 

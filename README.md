@@ -17,6 +17,8 @@ Establishing a Kubernetes cluster is simplified by utilizing eksctl, a powerful 
 
 Within this project, the integration of a  preexisting jenkins server with a container built from a docker image was used for the continuous integration and continuous deployment (CI/CD) workflow.
 
+![jenkin server](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/7264f62b-cc9a-41df-9229-5e14066ac979)
+
 
 
 # Installation of Kubectl on Jenkins container

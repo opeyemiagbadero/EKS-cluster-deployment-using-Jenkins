@@ -23,5 +23,7 @@ The installation of kubectl on the Jenkins server is indispensable as it functio
 
 It is crucial to install iam-authenticator on the Jenkins container to establish secure authentication with AWS services. This installation is vital for enabling secure communication between Jenkins and Amazon EKS, ensuring protected access to the Kubernetes cluster. The authentication mechanism provided by iam-authenticator is an integral part of the overall project workflow, enhancing security measures and enabling proper interaction with AWS resources during the deployment process. For detailed installation instructions, refer to the following URL: https://weaveworks-gitops.awsworkshop.io/60_workshop_6_ml/00_prerequisites.md/50_install_aws_iam_auth.html
 
+# Kubeconfig File
 
+Generating the kubeconfig file is a crucial step in the project workflow, ensuring that the Jenkins user has the necessary permissions for secure access to the EKS cluster. This process involves creating the kubeconfig file, which integrates iam-authenticator for proper AWS Identity and Access Management (IAM) authentication. By following this step, a secure configuration is established, facilitating seamless communication between Jenkins and the EKS cluster during deployment. This is essential for maintaining security measures and ensuring smooth interaction with the Kubernetes environment, leveraging IAM for authentication. To create the kubeconfig file, refer to the following URL: https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
 

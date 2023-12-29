@@ -43,7 +43,8 @@ Generating the kubeconfig file is a crucial step in the project workflow, ensuri
 
 ![5 creating a kubeconfig file within aws](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/6bccf05c-6c95-4569-a109-43e7466a4f3f)
 
-Changed ownership from root to jenkins enabling seamless accessibility to the file by Jenkins,and also chan the permissions of the file with a chmod 400
+
+Change ownership of the kubeconfig file from root to jenkins enabling seamless accessibility to the file by Jenkins,and also chan the permissions of the file with a chmod 400
 
 ![change ownership and permission rights on the kube config file](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/6bd27ec7-484e-4507-af5b-e71072437bd7)
 

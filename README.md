@@ -47,6 +47,5 @@ Generating the kubeconfig file is a crucial step in the project workflow, ensuri
 
 Integrating AWS credentials into Jenkins is a pivotal step in establishing secure and authenticated communication between Jenkins and AWS services. This ensures that Jenkins possesses the required access to AWS resources, thereby facilitating the deployment process. By supplying the AWS access key and secret access key, Jenkins obtains the necessary authorization to interact with the designated AWS account. This enhances the overall security and functionality of the CI/CD pipeline, contributing to a robust and reliable workflow.
 
-![Screenshot from 2023-12-29 15-38-30](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/a44483cf-bd1c-4b7d-b15c-47bbf83a6571)
-
+![Screenshot from 2023-12-29 15-42-42](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/a52c0d98-9d99-4258-9938-701498b47905)
 

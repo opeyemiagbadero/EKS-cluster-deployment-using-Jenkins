@@ -66,3 +66,16 @@ pushed from my local git repo to the git repo which automatically triggers and e
 ![Screenshot from 2023-12-29 15-56-16](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/67dcc78b-086c-4459-841e-e522f35786d8)
 
 
+![console output](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/08dd6df8-8f77-4110-9467-73bcb20fabcc)
+
+Run a kubectl get pods command within the jenkins container to confirm the deploymet of the cluster within the pod
+
+![11  kubectl get pods](https://github.com/opeyemiagbadero/EKS-cluster-deployment-using-Jenkins/assets/79456052/1dbe16ec-cb79-4d4f-a8a3-c74aba590b4e)
+
+Successfully set up Jenkins for deploying applications to an EKS cluster.
+
+
+
+
+
+
